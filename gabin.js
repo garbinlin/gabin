@@ -1,0 +1,6 @@
+(function() {
+  // Construct
+  function Gabin() {
+	  
+  }
+} () );
