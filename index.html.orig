@@ -7,6 +7,10 @@
   <body>
 	  <h1>Welcome to here.</h1>
 	  <input type="button" value="this is a button"/>
+<<<<<<< HEAD
+	  <p></p>
+=======
 	  <p>Welcome to here</p>
+>>>>>>> v1.0
   </body>
 </html>
