@@ -7,10 +7,11 @@
   <body>
 	  <h1>Welcome to here.</h1>
 	  <input type="button" value="this is a button"/>
-	  <p>Welcome to here</p>
   </body>
   <script>
 	var cId = $.getUrlParam("cId");
+	console.log(cId);
+	cId = $.getCookie("c_shopInShop_customerId");
 	console.log(cId);
   </script>
 </html>

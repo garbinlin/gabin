@@ -28,7 +28,7 @@
 	return (str || "").toString().replace(/^\s+|\s$/g, "");
   };
   Gabin.parseCookie = function(str) {
-    str = str || "";
+    str = str || document.cookie || "";
 	var json = {
 	};
 	var list = str.split("; ");
@@ -60,6 +60,10 @@
   Gabin.getUrlParam = function(key) {
     var json = this.parseQueryString();
 	return json[key] || "";
+  };
+  Gabin.getCookie = function(key) {
+    var cookieJson = this.parseCookie();
+	return cookieJson[key] || "";
   };
   var gabin = {
   };
